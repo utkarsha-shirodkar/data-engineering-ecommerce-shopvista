@@ -45,12 +45,10 @@ The Power BI report is available in [4_dashboarding/ecommerce_analytics.pbix](4_
 ## Project Structure
 
 ```text
-0_data/                         Raw source data and sample ZIP archive
 1_setup/                        Unity Catalog and external volume setup
 2_medallion_processing_dim/     Dimension tables: Bronze to Silver to Gold
 3_medallion_processing_fact/    Fact tables: Bronze to Silver to Gold
 4_dashboarding/                 Power BI dashboard
-5_exercise/                     Monthly ETL exercise instructions
 resources/                      Architecture and report images
 ```
 
